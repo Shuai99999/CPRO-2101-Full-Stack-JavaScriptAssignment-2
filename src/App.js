@@ -43,8 +43,11 @@ const getWordFrequency = (text) => {
   return frequency;
 };
 
+const DEFAULT_SAMPLE =
+  "Are we be invaded?\nNo, we aren't.\nThe Pi is 3.14.\nI am Mr. Gao.\nThe website is www.yahoo.com.\nMy blade seeks vengence!";
+
 function App() {
-  const [inputText, setInputText] = useState("");
+  const [inputText, setInputText] = useState(DEFAULT_SAMPLE);
   const [report, setReport] = useState(null);
 
   const handleSubmit = useCallback(
@@ -74,6 +77,7 @@ function App() {
       <header className="app-header">
         <h1>Text Analyzer</h1>
         <p className="subtitle">Assignment 2 — CPRO 2101</p>
+        <p className="students">Students: Shuai, Bright</p>
       </header>
 
       <form onSubmit={handleSubmit} className="analyzer-form">
