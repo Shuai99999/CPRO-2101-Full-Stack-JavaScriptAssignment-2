@@ -1,0 +1,179 @@
+/* App container - centered layout and spacing */
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #e8e8e8;
+}
+
+.subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Form and input */
+.analyzer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.analyzer-form label {
+  font-weight: 500;
+  color: #ccc;
+}
+
+.text-area {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  line-height: 1.5;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #252535;
+  color: #eee;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.text-area::placeholder {
+  color: #666;
+}
+
+.text-area:focus {
+  outline: none;
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.25);
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.6rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: #0ea5e9;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0284c7;
+}
+
+.btn-secondary {
+  background: #374151;
+  color: #e5e7eb;
+}
+
+.btn-secondary:hover {
+  background: #4b5563;
+}
+
+/* Report section */
+.report {
+  background: #252535;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.report h2 {
+  margin: 0 0 1.25rem;
+  font-size: 1.25rem;
+  color: #e8e8e8;
+}
+
+.report-section {
+  margin-bottom: 1.25rem;
+}
+
+.report-section:last-child {
+  margin-bottom: 0;
+}
+
+.report-section h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.stat {
+  margin: 0;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.stat strong {
+  color: #0ea5e9;
+}
+
+.no-data {
+  margin: 0;
+  color: #888;
+  font-style: italic;
+}
+
+.word-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.word-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  background: #1a1a2e;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.word {
+  color: #e2e8f0;
+}
+
+.count {
+  font-weight: 600;
+  color: #0ea5e9;
+  min-width: 2rem;
+  text-align: right;
+}
