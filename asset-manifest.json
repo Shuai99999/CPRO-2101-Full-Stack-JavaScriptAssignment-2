@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CPRO-2101-Full-Stack-JavaScriptAssignment-2/static/css/main.1703f094.css",
+    "main.js": "/CPRO-2101-Full-Stack-JavaScriptAssignment-2/static/js/main.08f6bae9.js",
+    "index.html": "/CPRO-2101-Full-Stack-JavaScriptAssignment-2/index.html",
+    "main.1703f094.css.map": "/CPRO-2101-Full-Stack-JavaScriptAssignment-2/static/css/main.1703f094.css.map",
+    "main.08f6bae9.js.map": "/CPRO-2101-Full-Stack-JavaScriptAssignment-2/static/js/main.08f6bae9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1703f094.css",
+    "static/js/main.08f6bae9.js"
+  ]
+}
